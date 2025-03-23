@@ -35,14 +35,13 @@ Before running the project, ensure you have the following installed:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/adeshingale3/Team-Deployers
-cd Team-Deployers
+git clone https://github.com/adeshingale3/WeHack
+cd WeHack
 ```
 
 2. **Install dependencies:**
 
 ```bash
-in root folder
 npm install
 ```
 
@@ -50,7 +49,7 @@ npm install
    - Create a `.env` in root folder
    - Add necessary configuration details:
 
-```env
+```bash
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
@@ -58,7 +57,6 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 4. **Run the Application:**
 
 ```bash
-# Start frontend
 npm start
 ```
 
