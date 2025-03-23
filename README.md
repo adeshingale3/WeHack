@@ -64,7 +64,7 @@ npm start
 
 ## 👥 Team Members
 
-1. [Raj Desai](https://github.com/rajdesai17)
-2. [Adesh Ingale](https://github.com/adeshingale3)
+1. [Adesh Ingale](https://github.com/adeshingale3)
+2. [Raj Desai](https://github.com/rajdesai17)
 
 **Made with ❤️**
