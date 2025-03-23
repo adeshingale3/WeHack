@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+# **Aquify**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Description
 
-Currently, two official plugins are available:
+Aquify is a crowdsourced web platform that maps and promotes free water refill stations, encouraging individuals to reduce plastic bottle waste. Users can discover nearby refill stations, contribute new locations, and provide feedback on water quality. The platform gamifies user engagement through a reward system, motivating sustainable behavior. Aquify also offers businesses the opportunity to list their refill stations, enhancing their eco-friendly branding while increasing foot traffic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Link to Project
 
-## Expanding the ESLint configuration
+[Live Link](https://aquify.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** Supabase
+- **Authentication:** Supabase Auth
+- **Maps & Location Services:** React leaflet & OpenStreetMap
+- **Deployment:** Vercel (Frontend)
+
+## 📷 Snapshots
+
+| ![Home Page](/public/indexImg.png "Home Page") | ![Find Station](/public/FindStationImg.png "Find Station") | ![Add Station](/public/AddStationImg.png "Add Station") | ![Profile](/public/Profileimg.png "Profile") |
+|:---:|:---:|:---:|:---:|
+
+## 📦 Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- **Node.js** (v16+)
+- **npm** (v8+)
+- **Supabase Account**
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/adeshingale3/Team-Deployers
+cd Team-Deployers
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Install dependencies:**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+in root folder
+npm install
 ```
+
+3. **Configure Environment Variables:**
+   - Create a `.env` in root folder
+   - Add necessary configuration details:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+4. **Run the Application:**
+
+```bash
+# Start frontend
+npm start
+```
+
+## 👥 Team Members
+
+1. [Raj Desai](https://github.com/rajdesai17)
+2. [Adesh Ingale](https://github.com/adeshingale3)
+
+**Made with ❤️**
